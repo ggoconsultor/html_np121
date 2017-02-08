@@ -4,20 +4,12 @@
 
 @media screen and (orientation:portrait) {
 
-   .greeting {
-      color: #f1e9e9;
-      font-family: ‘Century Gothic’, sans-serif;
-	   font-size: 120px;
-	   font-weight: 300;
-
-      max-width: 90%;
-   }
    h1:before {
-	   background: #3C7E95;
-      content: '';
-	   display: block;
-	   height: 2px;
-	   margin-bottom: 14px;
+		background: #3C7E95;
+		content: '';
+		display: block;
+		height: 2px;
+		margin-bottom: 14px;
    }
    h1 {
 	   color: #f1e9e9;
@@ -33,7 +25,6 @@
    }
 
    h1:after {
-	   /*background: #3697ba;*/
 	   background: #3C7E95;
 	   content: '';
 	   display: block;
@@ -50,14 +41,14 @@
    }
 
    p {
-	   color: #D7CEBB;
-      font-family: ‘Century Gothic’, sans-serif;
-	   font-size: 20px;
-	   font-weight: 500;
-	   line-height: 36px;
-	   margin-bottom: 48px;
-	   max-width: 700px;
-      position: relative;  
+		color: #D7CEBB;
+		font-family: ‘Century Gothic’, sans-serif;
+		font-size: 40px;
+		font-weight: 500;
+		line-height: 110%;
+		margin-bottom: 48px;
+		/*max-width: 700px;*/
+		position: relative;  
    }
 
    a {
@@ -101,11 +92,19 @@
      top: 0;
      left: 0;
    }
-
-   #info {
-     
-     
-   }
+	#address{
+		
+	}
+	#email {
+	 
+	 
+	}
+	#phone{
+	   
+	}
+	#logo{
+	   
+	}
 
       @media screen and (max-width: 1024px) 
          { /* Specific to this particular image */
@@ -117,7 +116,7 @@
       }
 
       img.logo {
-         transform: scale(1); 
+         transform: scale(2); 
          }
 
       .layer_dark{

@@ -4,40 +4,26 @@
 
 @media screen and (orientation:landscape) {
 
-  .greeting {
-      margin-bottom: 72px;
-      margin-top: 72px;	
-      color: #f1e9e9;
-      font-family: ‘Century Gothic’, sans-serif;
-	   font-size: 80px;
-	   font-weight: 300;
-
-      max-width: 70%;
-   }
-
-   h1:before {
-	   /*background: #3697ba;*/
-	   background: #3C7E95;
-      content: '';
-	   display: block;
-	   height: 2px;
-	   margin-bottom: 14px;
-   }
-   h1 {
-	   color: #f1e9e9;
-      font-family: ‘Century Gothic’, sans-serif;
-	   font-size: 80px;
-	   font-weight: 300;
-	   line-height: 78px;
-	   margin-bottom: 72px;
-      margin-top: 72px;	
-      max-width: 700px;
-	   position: relative;
-
+	h1:before {
+		background: #3C7E95;
+		content: '';
+		display: block;
+		height: 2px;
+		margin-bottom: 14px;
+	}
+	h1 {
+		color: #f1e9e9;
+		font-family: ‘Century Gothic’, sans-serif;
+		font-size: 80px;
+		font-weight: 300;
+		line-height: 78px;
+		margin-bottom: 72px;
+		margin-top: 72px;	
+		max-width: 900px;
+		position: relative;
    }
 
    h1:after {
-	   /*background: #3697ba;*/
 	   background: #3C7E95;
 	   content: '';
 	   display: block;
@@ -46,39 +32,30 @@
    }
 
    h2 {
-      color: #D7CEBB;
-      font-family: ‘Century Gothic’, sans-serif;
-	   font-size: 40px;
-	   font-weight: 300;
-	   letter-spacing: -0.01em;
+		color: #D7CEBB;
+		font-family: ‘Century Gothic’, sans-serif;
+		font-size: 40px;
+		font-weight: 300;
+		max-width: 700px;
+		letter-spacing: -0.01em;
    }
 
    p {
-	   color: #D7CEBB;
-      font-family: ‘Century Gothic’, sans-serif;
-	   font-size: 20px;
-	   font-weight: 500;
-	   line-height: 36px;
-	   margin-bottom: 48px;
-	   max-width: 700px;
-      position: relative;  
+		color: #D7CEBB;
+		font-family: ‘Century Gothic’, sans-serif;
+		font-size: 15px;
+		font-weight: 500;
+		margin:12px 12px 12px 12px;
+		position: relative;  
+		line-height: 110%;
    }
 
    a {
-	   /*color: #395d6a;	font-style: italic;*/
-      /*color: #20ceba;	font-style: italic;*/
-      /*color: #3697ba;	font-style: italic;*/
       color: #376D73;	font-style: italic;
    }
 
    a:hover {
 	   color: #395d6a;
-   }
-
-   th, td {
-      font-family: ‘Century Gothic’, sans-serif;
-      color: #D7CEBB;
-      font-size: 12px;
    }
 
    .post-info { 
@@ -91,21 +68,38 @@
                   position: relative;
                }
 
-   img.bg {
-     /* Set rules to fill background */
-     min-height: 100%;
-     min-width: 1024px;
-	
-     /* Set up proportionate scaling */
-     width: 100%;
-     height: auto;
-	
-     /* Set up positioning */
-     position: fixed;
-     top: 0;
-     left: 0;
-   }
+	img.bg {
+		/* Set rules to fill background */
+		min-height: 100%;
+		min-width: 1024px;
 
+		/* Set up proportionate scaling */
+		width: 100%;
+		height: auto;
+
+		/* Set up positioning */
+		position: fixed;
+		top: 0;
+		left: 0;
+   }
+	#address{
+		text-transform: uppercase;
+		float:left;
+		left:20px;
+
+	}
+	#phone{
+		float:left;
+		left:80px;
+	}
+	#email {
+		float:left;
+		left:60%;
+	}
+	#logo{
+		float:left;
+		left:90%;
+	}
    #info {
       float:left;
       /*width:200px;
@@ -125,7 +119,7 @@
 
 
       img.logo {
-         transform: scale(1); 
+         transform: scale(1.5); 
       }
 
    .layer_dark{
@@ -135,6 +129,7 @@
       top: 0px;
        left: 0px;
        width: 100%;
+
 
    }
 }
