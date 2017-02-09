@@ -17,7 +17,6 @@
 	}
 	h1 {
 		color: #f1e9e9;
-		/*font-family: ‘Century Gothic’, sans-serif;*/
 		font-family: 'Roboto';
 		font-size: 80px;
 		font-weight: 300;
@@ -37,8 +36,7 @@
    }
 
    h2 {
-		color: #D7CEBB;
-		/*font-family: ‘Century Gothic’, sans-serif;*/
+		color: #f1e9e9;
 		font-family: 'Roboto';
 		font-size: 40px;
 		font-weight: 300;
@@ -48,30 +46,19 @@
 
    p {
 		color: #D7CEBB;
-		/*font-family: ‘Century Gothic’, sans-serif;*/
 		font-family: ‘Libre Baskerville’;
 		font-size: 16px;
 		font-weight: 500;
 		margin:1px 12px 1px 12px;
-		/*position: relative;  */
 		line-height: 110%;
    }
 
    a {
-      color: #376D73;	font-style: italic;
+      color: #D7CEBB;	font-style: italic;
    }
 
    a:hover {
 	   color: #395d6a;
-   }
-
-   .post-info { 
-      border-top: 1px dashed #e0945a; 
-      border-bottom: 1px dashed #e0945a; 
-      font-size: 20px; margin: 15px 0 15px; 
-      padding: 3px; text-transform: uppercase; 
-      color: #94703b; 
-      position: relative;
    }
 
 	img.bg {
@@ -87,19 +74,20 @@
 		position: fixed;
 		top: 0;
 		left: 0;
-   }
-   #email {
-	
 	}
-	#address{
+	#email {
+		margin:1px 12px 1px 48px;
+	}
+	#address {
 		text-transform: uppercase;
-	
+		margin:1px 12px 1px 48px;
 	}
-	#phone{
-	
+	#phone {
+		margin:1px 12px 1px 48px;
 	}
-	#logo{
-	
+	#logo {
+		width:100%;
+		height:auto;
 	}
 
    @media screen and (max-width: 1024px) { 
@@ -110,15 +98,6 @@
       }
    }
    
-   img.logo {
-/*      transform: scale(1);
-		margin:12px 12px 12px 12px;*/
-
-		width:25%;
-      height:auto;
-
-   }
-
    .layer_dark{
       background-color: rgba(57, 69, 77, .9);
       position: absolute;
@@ -131,39 +110,28 @@
 
    .footnote{
       float: right;
-      width: 90%;
-      border: 1px solid green   
+      width: 80%;
+      /*border: 1px solid green*/
    }
 
    .footnote-c1{
-      width: 20%;
-      height: auto;
-      float: left;
-      padding: 15px;
-      border: 1px solid red   
-   }
-
-   .footnote-c2{
-      width: 12%;
-      height: auto;
-      float: left;
-      padding: 15px;
-      border: 1px solid red   
-   }
-   .footnote-c3{
       width: 26%;
       height: auto;
       float: left;
-      padding: 15px;
-      border: 1px solid red   
+      /*border: 1px solid red*/   
    }
-   .footnote-c4{
-      width: 22%;
+
+   .footnote-c2{
+      width: 30%;
       height: auto;
       float: left;
-      padding: 15px;
-      border: 1px solid red   
+      /*border: 1px solid red*/
    }
-	
+   .footnote-c3{
+      width: 20%;
+      height: auto;
+      float: left;
+      /*border: 1px solid red*/
+   }
 }
 
