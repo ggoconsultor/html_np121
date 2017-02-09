@@ -3,7 +3,11 @@
 */
 
 @media screen and (orientation:portrait) {
-
+   
+   * {
+      box-sizing: border-box;
+   }
+   
    h1:before {
 		background: #3C7E95;
 		content: '';
@@ -12,72 +16,50 @@
 		margin-bottom: 14px;
    }
    h1 {
-	   color: #f1e9e9;
-      font-family: ‘Century Gothic’, sans-serif;
-	   font-size: 120px;
-	   font-weight: 300;
-	   line-height: 78px;
-	   margin-bottom: 92px;
-      margin-top: 92px;	
-      max-width: 800px;
-	   position: relative;
-      line-height: 100%
+		color: #f1e9e9;
+		font-family: 'Roboto';
+		font-size: 120px;
+		font-weight: 300;
+		line-height: 78px;
+		margin-bottom: 92px;
+		margin-top: 92px;	
+		max-width: 800px;
+		line-height: 100%
    }
 
    h1:after {
-	   background: #3C7E95;
-	   content: '';
-	   display: block;
-	   height: 2px;
-	   margin-top: 14px;
+		background: #3C7E95;
+		content: '';
+		display: block;
+		height: 2px;
+		margin-top: 14px;
    }
 
    h2 {
-      color: #D7CEBB;
-      font-family: ‘Century Gothic’, sans-serif;
-	   font-size: 70px;
-	   font-weight: 300;
-	   letter-spacing: -0.01em;
+		color: #f1e9e9;
+		font-family: 'Roboto';
+		font-size: 70px;
+		font-weight: 300;
+		max-width: 80%;
+		letter-spacing: -0.01em;
    }
 
    p {
 		color: #D7CEBB;
-		/*font-family: ‘Century Gothic’, sans-serif;*/
 		font-family: ‘Libre Baskerville’;
-		font-size: 40px;
+		font-size: 50px;
 		font-weight: 500;
+		margin:50px 12px 50px 80px;
 		line-height: 110%;
-		margin-bottom: 48px;
-		/*max-width: 700px;*/
-		position: relative;  
    }
 
    a {
-	   /*color: #395d6a;	font-style: italic;*/
-      /*color: #20ceba;	font-style: italic;*/
-      /*color: #3697ba;	font-style: italic;*/
-      color: #376D73;	font-style: italic;
+		color: #D7CEBB;	font-style: italic;
    }
 
    a:hover {
 	   color: #395d6a;
    }
-
-   th, td {
-      font-family: ‘Century Gothic’, sans-serif;
-      color: #D7CEBB;
-      font-size: 12px;
-   }
-
-   .post-info { 
-                 
-                  border-top: 1px dashed #e0945a; 
-                  border-bottom: 1px dashed #e0945a; 
-                  font-size: 20px; margin: 15px 0 15px; 
-                  padding: 3px; text-transform: uppercase; 
-                  color: #94703b; 
-                  position: relative;
-               }
 
    img.bg {
      /* Set rules to fill background */
@@ -93,41 +75,66 @@
      top: 0;
      left: 0;
    }
-	#address{
-		
-	}
 	#email {
-	 
-	 
+	 margin:1px 12px 1px 48px;
+	}
+	#address{
+		text-transform: uppercase;
+		margin:1px 12px 1px 48px;
 	}
 	#phone{
-	   
+	   	margin:1px 12px 1px 48px;
 	}
 	#logo{
-	   
+		transform: scale(2.2);
+		margin:1px 12px 1px 80px;
+	}
+	#icon{
+		transform: scale(3);
+	}
+	@media screen and (max-width: 1024px) {
+		/* Specific to this particular image */
+		img.bg {
+			left: 50%;
+			margin-left: -512px;   /* 50% */
+		}
 	}
 
-      @media screen and (max-width: 1024px) 
-         { /* Specific to this particular image */
-            img.bg {
-                     left: 50%;
-                     margin-left: -512px;   /* 50% */
-        }
+	.layer_dark{
+		background-color: rgba(57, 69, 77, .9);
+		position: absolute;
 
-      }
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: auto;
+	}
+	
+   .footnote{
+      /*float: right;
+      width: 80%;*/
+      /*border: 1px solid green*/
+   }
 
-      img.logo {
-         transform: scale(2); 
-         }
+   .footnote-c1{
+      width: 80%;
+      height: auto;
+	  
+      /*border: 1px solid red*/   
+   }
 
-      .layer_dark{
-       background-color: rgba(57, 69, 77, .9);
-       position: absolute;
-       
-      top: 0px;
-       left: 0px;
-       width: 100%;
-      height: 100%;
-      }
+   .footnote-c2{
+      width: 80%;
+	  
+      /*height: auto;
+      float: left;*/
+      /*border: 1px solid red*/
+   }
+   .footnote-c3{
+		width: 80%;
+		/*height: auto;
+		float: left;*/
+		/*border: 1px solid red*/
+   }
 }
 
