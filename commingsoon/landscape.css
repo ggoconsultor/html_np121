@@ -4,6 +4,10 @@
 
 @media screen and (orientation:landscape) {
 
+   * {
+      box-sizing: border-box;
+   }
+
 	h1:before {
 		background: #3C7E95;
 		content: '';
@@ -20,7 +24,7 @@
 		line-height: 78px;
 		margin-bottom: 72px;
 		margin-top: 72px;	
-		max-width: 900px;
+		max-width: 800px;
 		position: relative;
    }
 
@@ -48,8 +52,8 @@
 		font-family: ‘Libre Baskerville’;
 		font-size: 12px;
 		font-weight: 500;
-		margin:12px 12px 12px 12px;
-		position: relative;  
+		margin:1px 12px 1px 12px;
+		/*position: relative;  */
 		line-height: 110%;
    }
 
@@ -62,14 +66,13 @@
    }
 
    .post-info { 
-                 
-                  border-top: 1px dashed #e0945a; 
-                  border-bottom: 1px dashed #e0945a; 
-                  font-size: 20px; margin: 15px 0 15px; 
-                  padding: 3px; text-transform: uppercase; 
-                  color: #94703b; 
-                  position: relative;
-               }
+      border-top: 1px dashed #e0945a; 
+      border-bottom: 1px dashed #e0945a; 
+      font-size: 20px; margin: 15px 0 15px; 
+      padding: 3px; text-transform: uppercase; 
+      color: #94703b; 
+      position: relative;
+   }
 
 	img.bg {
 		/* Set rules to fill background */
@@ -85,61 +88,59 @@
 		top: 0;
 		left: 0;
    }
-   	#email {
+   #email {
 		float:left;
-		left:12px;
-		max-width: 232px;
+		width:16%;
 	}
 	#address{
 		text-transform: uppercase;
 		float:left;
-		left:244px;
-		max-width: 232px;
+		width:16%;
 	}
 	#phone{
 		float:left;
-		left:476px;
-		max-width: 232px;
+		width:16%;
 	}
 	#logo{
-		float:rigth;
-		right:78px;
-		max-width: 232px;
+
+		width:32%;
+ 
+	
 	}
-   #info {
-      float:left;
-      /*width:200px;
-      background:#fc0;*/
-   }
-
-   @media screen and (max-width: 1024px) 
-      { /* Specific to this particular image */
-         img.bg {
-                  left: 50%;
-                  margin-left: -512px;   /* 50% */
-			      
-			      
-     }
-
-   }
-
-
-      img.logo {
-         transform: scale(1.2); 
-		 float:rigth;
-		right:1px;
-		max-width: 232px;
+   @media screen and (max-width: 1024px) { 
+      /* Specific to this particular image */
+      img.bg {
+         left: 50%;
+         margin-left: -512px;   /* 50% */
       }
+   }
+   
+   img.logo {
+/*      transform: scale(1);
+		margin:12px 12px 12px 12px;*/
 
-	.layer_dark{
-		background-color: rgba(57, 69, 77, .9);
-		position: absolute;
+		width:25%;
+      height:auto;
 
-		top: 0px;
-		left: 0px;
-		width: 100%;
-		height: 100%;
-	}
+   }
+
+   .layer_dark{
+      background-color: rgba(57, 69, 77, .9);
+      position: absolute;
+
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+   }
+
+   .footnote{
+      width: 80%;
+      height: auto;
+     /*  float: center;*/
+       padding: auto;
+       border: 1px solid red   
+   }
 	
 }
 
