@@ -1,0 +1,140 @@
+/*
+   Portrait Styles
+*/
+
+@media screen and (orientation:portrait) {
+   
+   * {
+      box-sizing: border-box;
+   }
+   
+   h1:before {
+		background: #3C7E95;
+		content: '';
+		display: block;
+		height: 2px;
+		margin-bottom: 14px;
+   }
+   h1 {
+		color: #f1e9e9;
+		font-family: 'Roboto';
+		font-size: 120px;
+		font-weight: 300;
+		line-height: 78px;
+		margin-bottom: 92px;
+		margin-top: 92px;	
+		max-width: 800px;
+		line-height: 100%
+   }
+
+   h1:after {
+		background: #3C7E95;
+		content: '';
+		display: block;
+		height: 2px;
+		margin-top: 14px;
+   }
+
+   h2 {
+		color: #f1e9e9;
+		font-family: 'Roboto';
+		font-size: 70px;
+		font-weight: 300;
+		max-width: 80%;
+		letter-spacing: -0.01em;
+   }
+
+   p {
+		color: #D7CEBB;
+		font-family: ‘Libre Baskerville’;
+		font-size: 50px;
+		font-weight: 500;
+		margin:50px 12px 50px 80px;
+		line-height: 110%;
+   }
+
+   a {
+		color: #D7CEBB;	font-style: italic;
+   }
+
+   a:hover {
+	   color: #395d6a;
+   }
+
+   img.bg {
+     /* Set rules to fill background */
+     min-height: 100%;
+     min-width: 1024px;
+	
+     /* Set up proportionate scaling */
+     width: 100%;
+     height: auto;
+     /* background-repeat: repeat-y;*/
+     /* Set up positioning */
+     position: fixed;
+     top: 0;
+     left: 0;
+   }
+	#email {
+	 margin:1px 12px 1px 48px;
+	}
+	#address{
+		text-transform: uppercase;
+		margin:1px 12px 1px 48px;
+	}
+	#phone{
+	   	margin:1px 12px 1px 48px;
+	}
+	#logo{
+		transform: scale(2.2);
+		margin:1px 12px 1px 80px;
+	}
+	#icon{
+		transform: scale(3);
+	}
+	@media screen and (max-width: 1024px) {
+		/* Specific to this particular image */
+		img.bg {
+			left: 50%;
+			margin-left: -512px;   /* 50% */
+		}
+	}
+
+	.layer_dark{
+		background-color: rgba(57, 69, 77, .9);
+		position: absolute;
+
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: auto;
+	}
+	
+   .footnote{
+      /*float: right;
+      width: 80%;*/
+      /*border: 1px solid green*/
+   }
+
+   .footnote-c1{
+      width: 80%;
+      height: auto;
+	  
+      /*border: 1px solid red*/   
+   }
+
+   .footnote-c2{
+      width: 80%;
+	  
+      /*height: auto;
+      float: left;*/
+      /*border: 1px solid red*/
+   }
+   .footnote-c3{
+		width: 80%;
+		/*height: auto;
+		float: left;*/
+		/*border: 1px solid red*/
+   }
+}
+
