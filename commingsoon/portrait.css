@@ -42,7 +42,8 @@
 
    p {
 		color: #D7CEBB;
-		font-family: ‘Century Gothic’, sans-serif;
+		/*font-family: ‘Century Gothic’, sans-serif;*/
+		font-family: ‘Libre Baskerville’;
 		font-size: 40px;
 		font-weight: 500;
 		line-height: 110%;

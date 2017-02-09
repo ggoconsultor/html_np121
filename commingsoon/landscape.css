@@ -13,7 +13,8 @@
 	}
 	h1 {
 		color: #f1e9e9;
-		font-family: ‘Century Gothic’, sans-serif;
+		/*font-family: ‘Century Gothic’, sans-serif;*/
+		font-family: 'Roboto';
 		font-size: 80px;
 		font-weight: 300;
 		line-height: 78px;
@@ -33,7 +34,8 @@
 
    h2 {
 		color: #D7CEBB;
-		font-family: ‘Century Gothic’, sans-serif;
+		/*font-family: ‘Century Gothic’, sans-serif;*/
+		font-family: 'Roboto';
 		font-size: 40px;
 		font-weight: 300;
 		max-width: 700px;
@@ -42,8 +44,9 @@
 
    p {
 		color: #D7CEBB;
-		font-family: ‘Century Gothic’, sans-serif;
-		font-size: 15px;
+		/*font-family: ‘Century Gothic’, sans-serif;*/
+		font-family: ‘Libre Baskerville’;
+		font-size: 12px;
 		font-weight: 500;
 		margin:12px 12px 12px 12px;
 		position: relative;  
@@ -82,23 +85,26 @@
 		top: 0;
 		left: 0;
    }
+   	#email {
+		float:left;
+		left:12px;
+		max-width: 232px;
+	}
 	#address{
 		text-transform: uppercase;
 		float:left;
-		left:20px;
-
+		left:244px;
+		max-width: 232px;
 	}
 	#phone{
 		float:left;
-		left:80px;
-	}
-	#email {
-		float:left;
-		left:60%;
+		left:476px;
+		max-width: 232px;
 	}
 	#logo{
-		float:left;
-		left:90%;
+		float:rigth;
+		right:78px;
+		max-width: 232px;
 	}
    #info {
       float:left;
@@ -119,18 +125,21 @@
 
 
       img.logo {
-         transform: scale(1.5); 
+         transform: scale(1.2); 
+		 float:rigth;
+		right:1px;
+		max-width: 232px;
       }
 
-   .layer_dark{
-       background-color: rgba(57, 69, 77, .9);
-       position: absolute;
-       
-      top: 0px;
-       left: 0px;
-       width: 100%;
+	.layer_dark{
+		background-color: rgba(57, 69, 77, .9);
+		position: absolute;
 
-
-   }
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+	}
+	
 }
 
