@@ -50,7 +50,7 @@
 		color: #D7CEBB;
 		/*font-family: ‘Century Gothic’, sans-serif;*/
 		font-family: ‘Libre Baskerville’;
-		font-size: 12px;
+		font-size: 16px;
 		font-weight: 500;
 		margin:1px 12px 1px 12px;
 		/*position: relative;  */
@@ -89,24 +89,19 @@
 		left: 0;
    }
    #email {
-		float:left;
-		width:16%;
+	
 	}
 	#address{
 		text-transform: uppercase;
-		float:left;
-		width:16%;
-	}
-	#phone{
-		float:left;
-		width:16%;
-	}
-	#logo{
-
-		width:32%;
- 
 	
 	}
+	#phone{
+	
+	}
+	#logo{
+	
+	}
+
    @media screen and (max-width: 1024px) { 
       /* Specific to this particular image */
       img.bg {
@@ -135,11 +130,39 @@
    }
 
    .footnote{
-      width: 80%;
+      float: right;
+      width: 90%;
+      border: 1px solid green   
+   }
+
+   .footnote-c1{
+      width: 20%;
       height: auto;
-     /*  float: center;*/
-       padding: auto;
-       border: 1px solid red   
+      float: left;
+      padding: 15px;
+      border: 1px solid red   
+   }
+
+   .footnote-c2{
+      width: 12%;
+      height: auto;
+      float: left;
+      padding: 15px;
+      border: 1px solid red   
+   }
+   .footnote-c3{
+      width: 26%;
+      height: auto;
+      float: left;
+      padding: 15px;
+      border: 1px solid red   
+   }
+   .footnote-c4{
+      width: 22%;
+      height: auto;
+      float: left;
+      padding: 15px;
+      border: 1px solid red   
    }
 	
 }
