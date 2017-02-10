@@ -49,7 +49,7 @@
 		font-family: ‘Libre Baskerville’;
 		font-size: 16px;
 		font-weight: 500;
-		margin:1px 12px 1px 12px;
+		margin:4px 1px 1px 20px;
 		line-height: 110%;
    }
 
@@ -75,19 +75,9 @@
 		top: 0;
 		left: 0;
 	}
-	#email {
-		margin:1px 12px 1px 48px;
-	}
-	#address {
-		text-transform: uppercase;
-		margin:1px 12px 1px 48px;
-	}
-	#phone {
-		margin:1px 12px 1px 48px;
-	}
+
 	#logo {
-		width:100%;
-		height:auto;
+		transform: scale(1.1);
 	}
 
    @media screen and (max-width: 1024px) { 
@@ -99,7 +89,7 @@
    }
    
    .layer_dark{
-      background-color: rgba(57, 69, 77, .9);
+      background-color: rgba(57, 69, 77, .6);
       position: absolute;
 
       top: 0px;
@@ -110,28 +100,36 @@
 
    .footnote{
       float: right;
-      width: 80%;
-      /*border: 1px solid green*/
+      width: 88%;
+/*      border: 1px solid green*/
    }
 
    .footnote-c1{
       width: 26%;
       height: auto;
       float: left;
-      /*border: 1px solid red*/   
+/*      border: 1px solid red*/
    }
 
    .footnote-c2{
-      width: 30%;
+      width: 24%;
       height: auto;
       float: left;
-      /*border: 1px solid red*/
+/*      border: 1px solid red*/
    }
    .footnote-c3{
-      width: 20%;
+      width: 28%;
       height: auto;
       float: left;
-      /*border: 1px solid red*/
+/*      border: 1px solid red*/
+   }
+   .spacerL{
+      width: 10%; 
+      float: left;
+   }
+   .spacerR{
+      width: 12%; 
+      float: left;
    }
 }
 

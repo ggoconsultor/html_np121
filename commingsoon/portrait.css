@@ -12,17 +12,17 @@
 		background: #3C7E95;
 		content: '';
 		display: block;
-		height: 2px;
-		margin-bottom: 14px;
+		height: 4px;
+		margin-bottom: 2px;
    }
    h1 {
 		color: #f1e9e9;
 		font-family: 'Roboto';
-		font-size: 120px;
+		font-size: 100px;
 		font-weight: 300;
 		line-height: 78px;
-		margin-bottom: 92px;
-		margin-top: 92px;	
+		margin-bottom: 1px;
+		margin-top: 40px;	
 		max-width: 800px;
 		line-height: 100%
    }
@@ -31,30 +31,33 @@
 		background: #3C7E95;
 		content: '';
 		display: block;
-		height: 2px;
-		margin-top: 14px;
+		height: 4px;
+		margin-top: 2px;
    }
 
    h2 {
 		color: #f1e9e9;
 		font-family: 'Roboto';
-		font-size: 70px;
+		font-size: 50px;
 		font-weight: 300;
-		max-width: 80%;
+		max-width: 90%;
 		letter-spacing: -0.01em;
+		line-height: 100%;
    }
 
    p {
 		color: #D7CEBB;
 		font-family: ‘Libre Baskerville’;
-		font-size: 50px;
+		font-size: 40px;
 		font-weight: 500;
-		margin:50px 12px 50px 80px;
-		line-height: 110%;
+		/*margin:20px 12px 50px 80px;*/
+      padding:40px;
+		line-height: 100%;
    }
 
    a {
-		color: #D7CEBB;	font-style: italic;
+		color: #D7CEBB;	
+      font-style: italic;
    }
 
    a:hover {
@@ -75,22 +78,14 @@
      top: 0;
      left: 0;
    }
-	#email {
-	 margin:1px 12px 1px 48px;
-	}
-	#address{
-		text-transform: uppercase;
-		margin:1px 12px 1px 48px;
-	}
-	#phone{
-	   	margin:1px 12px 1px 48px;
-	}
+
 	#logo{
-		transform: scale(2.2);
-		margin:1px 12px 1px 80px;
+		transform: scale(2.5);
+		margin:80px 12px 5px 80px;
 	}
 	#icon{
-		transform: scale(3);
+		transform: scale(2);
+      margin:1px 1px 1px 80px;
 	}
 	@media screen and (max-width: 1024px) {
 		/* Specific to this particular image */
@@ -101,13 +96,13 @@
 	}
 
 	.layer_dark{
-		background-color: rgba(57, 69, 77, .9);
+		background-color: rgba(57, 69, 77, .6);
 		position: absolute;
 
 		top: 0px;
 		left: 0px;
 		width: 100%;
-		height: auto;
+		height: 100%;
 	}
 	
    .footnote{
