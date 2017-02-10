@@ -70,7 +70,7 @@
      min-width: 1024px;
 	
      /* Set up proportionate scaling */
-     width: 100%;
+     width: auto;
      height: auto;
      /* background-repeat: repeat-y;*/
      /* Set up positioning */
@@ -96,7 +96,7 @@
 	}
 
 	.layer_dark{
-		background-color: rgba(57, 69, 77, .6);
+		background-color: rgba(57, 69, 77, .7);
 		position: absolute;
 
 		top: 0px;
