@@ -51,7 +51,7 @@
 		font-size: 40px;
 		font-weight: 500;
 		/*margin:20px 12px 50px 80px;*/
-      padding:40px;
+                padding:40px;
 		line-height: 100%;
    }
 
@@ -105,31 +105,26 @@
 		height: 100%;
 	}
 	
-   .footnote{
-      /*float: right;
-      width: 80%;*/
-      /*border: 1px solid green*/
-   }
 
    .footnote-c1{
-      width: 80%;
-      height: auto;
-	  
-      /*border: 1px solid red*/   
-   }
-
-   .footnote-c2{
       width: 80%;
 	  
       /*height: auto;
       float: left;*/
       /*border: 1px solid red*/
    }
-   .footnote-c3{
+   .footnote-c2{
 		width: 80%;
 		/*height: auto;
 		float: left;*/
 		/*border: 1px solid red*/
+   }
+
+   .footnote-c3{
+      width: 80%;
+      height: auto;
+	  
+      /*border: 1px solid red*/   
    }
 }
 
