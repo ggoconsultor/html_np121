@@ -98,27 +98,23 @@
       height: 100%;
    }
 
-   .footnote{
-      float: right;
-      width: 88%;
-/*      border: 1px solid green*/
-   }
 
    .footnote-c1{
-      width: 26%;
+      width: 24%;
       height: auto;
       float: left;
 /*      border: 1px solid red*/
    }
 
    .footnote-c2{
-      width: 24%;
+      width: 28%;
       height: auto;
       float: left;
 /*      border: 1px solid red*/
    }
+
    .footnote-c3{
-      width: 28%;
+      width: 26%;
       height: auto;
       float: left;
 /*      border: 1px solid red*/
